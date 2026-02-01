@@ -191,4 +191,9 @@
       transition-delay: 0s; // Remove delay on mobile for instant rendering
     }
   }
+
+  @media (max-width: 1024px) {
+    min-height: 100vh;
+    padding-bottom: 0;
+  }
 }

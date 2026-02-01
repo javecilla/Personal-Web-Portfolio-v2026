@@ -3134,20 +3134,26 @@
   const lscroll = new Smooth({
     el: document.querySelector("[data-scroll-container]"),
     smooth: true,
+    // smoothMobile: false,
     smartphone: {
       smooth: true
-    },
-    tablet: {
-      smooth: true
-    }
+    } // tablet: {
+    //   smooth: true,
+    // },
+    // multiplier: 1.0,
+    // firefoxMultiplier: 50,
+    // touchMultiplier: 2,
+    // resetNativeScroll: true,
+    // reloadOnContextChange: true,
+
   });
   window.addEventListener("load", () => {
-    lscroll.update();
+    lscroll.update(); //scroll.update();
   });
   window.addEventListener("resize", () => {
     setTimeout(() => {
       lscroll.update();
-    }, 10000);
+    }, 10000); //scroll.update();
   });
 
   // these aren't really private, but nor are they really useful to document
