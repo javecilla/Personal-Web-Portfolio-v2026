@@ -1,0 +1,42 @@
+---
+layout: work.liquid
+bodyClass: "work"
+title: "Work | Javecilla"
+---
+<div class="work__page">
+    <div data-scroll class="anim-scroll overflow-h">
+        <h1 class="anim-scroll_element">[SELECTED] Work</h1>
+    </div>
+    <section>
+        {% for work in collections.work reversed %}
+            {% if work.data.publishesd %}
+                <div class="work">
+                    <a {% if work.data.available %}href="{{work.url}}" {% endif %}{% if work.data.available == false %}class="disabled" disabled="disabled"{% endif %}>
+                        <div class="image__wrapper">
+                            {% if work.data.available == false %}
+                                <img class="work-unavailable" src="https://res.cloudinary.com/haroldao/image/upload/f_auto,q_auto/v1623248631/Coming_Soon_kzev2y.webp" alt="">
+                            {% endif %}
+
+                            <div class="img">
+                                <img src="{{ work.data.featureImage }}" alt="{{ work.data.featureImage.alt }}">
+                            </div>
+
+                            <div class="tags">
+                                <p>
+                                    {% for tag in work.data.tags %}
+                                        {{ tag.last }}
+                                        {% unless tag == "work" %}
+                                            <span>{{tag }}</span>
+                                        {% endunless %}
+                                    {% endfor %}
+                                </p>
+                            </div>
+                        </div>
+
+                        <h2>{{ work.data.title }}</h2>
+                    </a>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </section>
+</div>

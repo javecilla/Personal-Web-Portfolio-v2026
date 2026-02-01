@@ -1,0 +1,52 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ title | default: site.title }}</title>
+
+<meta name="description" content="{{ description | default: site.description }}"> 
+<meta name="title" content="{{ title | default: site.title }}">
+
+<meta name="google-site-verification" content="pXhqXSoicXgqODsICk5dWg8L2DFy-dbGcZFW-L5_3N8" />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ page.url | url }}">
+<meta property="og:title" content="{{ title | default: site.title }}">
+<meta property="og:description" content="{{ description | default: site.description }}">
+<meta property="og:image" content="{{ featureImage | default: https://ucarecdn.com/7e98e68f-b5b1-49fd-a2a6-fb14febf8689/-/format/webp/ }}">
+
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="{{ page.url | url }}">
+<meta property="twitter:title" content="{{ title | default: site.title }}">
+<meta property="twitter:description" content="{{ description | default: site.description }}">
+<meta property="twitter:image" content="{{ featureImage | default: https://ucarecdn.com/7e98e68f-b5b1-49fd-a2a6-fb14febf8689/-/format/webp/ }}">
+
+
+<link rel="preload" href="/src/fonts/MonumentExtended-Regular.woff2" crossorigin="anonymous" as="font" type="font/woff2">
+<link rel="preload" href="/src/fonts/MonumentExtended-Regular.woff" crossorigin="anonymous" as="font" type="font/woff">
+<link rel="preload" href="/src/fonts/SuisseIntl-Regular.woff2" crossorigin="anonymous" as="font" type="font/woff2">
+<link rel="preload" href="/src/fonts/Canela-Regular.woff2" crossorigin="anonymous" as="font" type="font/woff2">
+
+<link rel="stylesheet" href="{{ '/css/main.css' | url }}" rel="preload" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="stylesheet" href="{{ '/css/splitting.css' | url }}" rel="preload" as="style">
+<link rel="stylesheet" href="{{ '/css/splitting-cells.css' | url }}" rel="preload" as="style">
+<noscript>
+    <link
+        href="{{ '/css/main.css' | url }}"
+        rel="stylesheet"
+        type="text/css"
+    />
+</noscript>
+
+<link rel="shortcut icon" href="{{ "/favicon.ico" | url }}" type="image/ico" sizes="32x32">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="theme-color" content="#ffffff">
+
+<script>window.onload=()=>{document.body.classList.add('loaded')}</script>
+
+
+<link rel=preconnect href=https://script.hotjar.com/ crossorigin>
+<link rel=preconnect href=https://vars.hotjar.com crossorigin>
+<link rel=preconnect href=https://vc.hotjar.io crossorigin>
+<link rel=preconnect href=https://in.hotjar.com crossorigin>

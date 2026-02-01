@@ -1,0 +1,35 @@
+---
+layout: project.liquid
+bodyClass: "project"
+title: "Javecilla — Projects and Work"
+---
+<div class="work__page">
+    <div data-scroll class="anim-scroll overflow-h">
+        <h1 class="anim-scroll_element">Featured Projects</h1>
+    </div>
+    <section>
+        {% for entry in projects.data  %}
+            <div class="work">
+                <a href="{{entry.link}}" {% if entry.isAvailable == false %}class="disabled" disabled="disabled"{% endif %}>
+                    <div class="image__wrapper">
+                         {% if entry.isAvailable == false %}
+                                <img class="work-unavailable" src="https://website-376b6968.fee.xnf.temporary.site/assets/coming-soon-banner.webp" alt="">
+                            {% endif %}
+
+                        <div class="img">
+                            <img src="{{ entry.image }}" alt="{{ entry.title }} Image">
+                        </div>
+
+                        <div class="tags">
+                            <p>
+                                <span>{{ entry.category }}</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <h2>{{ entry.title }}</h2>
+                </a>
+            </div>
+        {% endfor %}
+    </section>
+</div>

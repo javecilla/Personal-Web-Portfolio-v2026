@@ -1,0 +1,24 @@
+<footer data-scroll data-scroll-repeat="true">
+    <div class="footer__one">
+        <span class="canela">Say Hello, I won't bite... 🤗</span>
+        <div class="contact__mail">
+            <a href="mailto:{{ site.socials.email }}" title="Click me to send an email">{{ site.socials.email }}</a>
+        </div>
+    </div>
+    {% assign year = "now" | date: "%Y" %}
+    <div class="footer__two anim">
+        <div>
+            <span>© {{ year }} -<br/> ALL RIGHTS RESERVED.</span>
+        </div>
+        <ul>
+            {% for item in site.socials %}
+                {% if item[0] == 'email' %}
+                    {% continue %}
+                {% endif %}
+                <li title="{{ item[0] }}">
+                    <a href="{{ item[1] }}">{{ item[0] }}</a>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</footer>

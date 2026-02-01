@@ -1,0 +1,19 @@
+{
+  "title": "Javecilla",
+  "description": "I am Jerome Avecilla. I'm a 21-year-old Filipino full stack web developer based in Bulacan, Philippines (but can do worldwide working). I'm available for projects, collaborations, and experiments",
+  "url": "https://javecilla.vercel.app",
+  "baseurl": "/",
+  "googleAnalytics": "UA-160841327-0",
+  "author": {
+    "name": "Jerome Avecilla",
+    "bio": "A 3rd Year IT Student who specializes in web and mobile application development.",
+    "avatar": "https://website-376b6968.fee.xnf.temporary.site/assets/avatar.webp"
+  },
+  "socials": {
+    "instagram": "https://instagram.com/http.javecilla",
+    "github": "https://github.com/javecilla",
+    "linkedin": "https://linkedin.com/in/jerome-avecilla",
+    "twitter": "https://twitter.com/_javecilla",
+    "email": "jeromesavc@gmail.com"
+  }
+}

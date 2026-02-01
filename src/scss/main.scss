@@ -1,0 +1,23 @@
+@import "utils/variables";
+@import "utils/responsive";
+@import "placeholder/placeholder-selectors";
+
+// Global Styles
+@import "global/reset";
+@import "global/mixins";
+@import "global/fonts";
+@import "global/base";
+@import "global/locomotive-scroll";
+
+// Snippets
+@import "snippets/cursor";
+@import "snippets/header";
+@import "snippets/footer";
+
+// Pages
+@import "pages/index";
+@import "pages/about";
+@import "pages/skill";
+@import "pages/project";
+@import "pages/project-list";
+@import "pages/404";

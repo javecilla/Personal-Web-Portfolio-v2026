@@ -1,0 +1,37 @@
+{
+  "frontend": [
+    "HTML 5",
+    "CSS 3",
+    "SCSS",
+    "JavaScript",
+    "Bootstrap 5",
+    "jQuery",
+    "Tailwind CSS",
+    "Vue.js 3",
+    "TypeScript"
+  ],
+  "backend": ["PHP / Laravel", "MySQL", "PostgreSQL", "Firebase"],
+  "devops": ["Git", "Gitlab", "Git Actions", "Docker"],
+  "hosting": [
+    "Github Pages",
+    "Vercel",
+    "Hostgator",
+    "Go Daddy",
+    "Hostinger",
+    "InfinityFree",
+    "Google Cloud Hosting"
+  ],
+  "tools": [
+    { "name": "Github Desktop", "url": "javascript:void(0)" },
+    { "name": "Gitbash", "url": "javascript:void(0)" },
+    { "name": "Visual Studio Code", "url": "javascript:void(0)" },
+    { "name": "Postman", "url": "javascript:void(0)" },
+    { "name": "Cursor", "url": "javascript:void(0)" },
+    { "name": "Claude Code", "url": "javascript:void(0)" },
+    { "name": "Gemini CLI", "url": "javascript:void(0)" },
+    { "name": "Warp", "url": "javascript:void(0)" },
+    { "name": "Antigravity", "url": "javascript:void(0)" },
+    { "name": "Figma", "url": "javascript:void(0)" },
+    { "name": "Canva", "url": "javascript:void(0)" }
+  ]
+}

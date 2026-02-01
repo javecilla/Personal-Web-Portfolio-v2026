@@ -1,0 +1,79 @@
+---
+type: page
+meta:
+  language: en-US
+eleventyComputed:
+  meta:
+    site:
+      name: "{{ title }}"
+      description: "{{ description }}"
+      url: "{{ url }}"
+    title: "{{ title }}"
+    description: "{{ description }}"
+    image:
+      src: "{% if featuredImg %}{{ site.url }}{{ featuredImg }}{% endif %}"
+---
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    {% include head %}
+    {% jsonLdScript meta, type, tags %}
+    <script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+</head>
+<body class="{{bodyClass}} loading">
+    {% include background %}
+    {% include header %}
+    <div class="container" data-scroll-container>
+        <main role="main">
+        {{ content }}
+        {% include footer %}
+        </main>
+    </div>
+    <!-- {{ page.path }} -->
+    <!-- Netlify Identity Widget -->
+    <!-- Needed only if you are using Netlify Identity feature -->
+    {% if page.url == "/" %}
+    <script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    {% endif %}
+    <!-- Google Analytics -->
+    {% comment %} <script type="application/javascript">var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','UA-160841327-1','auto'),ga('send','pageview'))</script>
+    <script async="" src="https://www.google-analytics.com/analytics.js"></script>
+    <script>(function(a,c,e,f,d,b){a.hj=a.hj||function(){(a.hj.q=a.hj.q||[]).push(arguments)},a._hjSettings={hjid:2296441,hjsv:6},d=c.getElementsByTagName('head')[0],b=c.createElement('script'),b.async=1,b.src=e+a._hjSettings.hjid+f+a._hjSettings.hjsv,d.appendChild(b)})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=')</script> {% endcomment %}
+    
+    
+    <script src="{{ '/js/app.js' | url }}" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.10/webfont.js"></script>
+    <script>
+    WebFont.load({
+        custom: {
+            families: ["MonumentExtended-Regular", "SuisseIntl-Regular", "Canela-Regular"]
+        }
+    });
+    </script>
+    <script type='application/ld+json'>
+      {
+        "@context": "http://www.schema.org",
+        "@type": "person",
+        "name": "Jerome Avecilla",
+        "jobTitle": "Full-Stack Web Developer",
+        "gender": "male",
+        "url": "https://javecilla.vercel.app",
+        "sameAs": [
+           "https://instagram.com/http.javecilla",
+           "https://linkedin.com/jerome-avecilla",
+           "https://twitter.com/_javecilla",
+           "https://github.com/javecilla",
+        ],
+        "image": "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/tqcsi5lzvcsxdnnixopu",
+        "address": {
+           "@type": "PostalAddress",
+           "addressCountry": "Philippines"
+        },
+        "email": "jeromesavc@gmail.com",
+        "birthDate": "2004-04-24",
+        "birthPlace": "Bulacan, Philippines",
+        "nationality": "Filipino"
+      }
+    </script>
+</body>
+</html>

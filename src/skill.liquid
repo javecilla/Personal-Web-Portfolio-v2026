@@ -1,0 +1,75 @@
+---
+layout: default.liquid
+title: "Javecilla — Tech Stack and Skills"
+description: "On this page you can find every skills related to me as a full-stack web developer, including hardware, software, tech stack, and tools I use."
+bodyClass: "skill"
+---
+
+<div class="skills__page">
+    <h1 >Tech Stack and Skills</h1>
+    <h1 class="display-none">Tech Stack and Skills</h1>
+    <section data-scroll class="techstack">
+        <div data-scroll data-scroll-speed="1.7" data-scroll-delay="1.3" class="frontend part">
+            <div class="overflow-h"><h2>Front-End</h2></div>
+            {% for entry in skills.frontend %}
+                <h3>{{ entry }}</h3>
+            {% endfor %}
+        </div>
+
+        <div data-scroll data-scroll-speed="1.4" data-scroll-delay="1" class="backend__databases part">
+            <div class="overflow-h"><h2>Back-End & Databases</h2></div>
+            {% for entry in skills.backend %}
+                <h3>{{ entry }}</h3>
+            {% endfor %}
+        </div>
+
+        <div data-scroll data-scroll-speed="3.3" data-scroll-delay="0.3" class="devops__tools part">
+            <div class="overflow-h"><h2>DevOps Tools</h2></div>
+            {% for entry in skills.devops %}
+                <h3>{{ entry }}</h3>
+            {% endfor %}
+        </div>
+
+        <div data-scroll data-scroll-speed="2" class="webhosting__experience part">
+            <div class="overflow-h"><h2>Web Hosting Experience</h2></div>
+            {% for entry in skills.hosting %}
+                <h3>{{ entry }}</h3>
+            {% endfor %}
+        </div>
+
+        <div data-scroll data-scroll-speed="4" class="other__tools part">
+            <div class="overflow-h"><h2>Other Websites / Tools I use usually</h2></div>
+            {% for entry in skills.tools %}
+            <h3>
+                <a href="{{ entry.url }}">{{ entry.name }}</a>
+            </h3>
+            {% endfor %}
+        </div>
+    </section>
+    <div class="anim-hr" data-scroll>
+        <hr class="anim-hr_element">
+    </div>
+    <section data-scroll class="certification__left-text">
+        <h2 class="text-test">Achievements and Certificates</h2>
+        <p>Explore my key accomplishments as a IT student, highlighting academic milestones, impactful projects, and my dedication to technology and innovation.</p>
+    </section>
+    <section data-scroll class="certification__lists">
+        <div class="work">
+            {% for entry in achievements.data %}
+            <a href="{{ entry.link }}" target="_blank" rel="noopener noreferrer">
+                <div class="image__wrapper">
+                    <div class="img">
+                        <img src="{{ entry.image }}" alt="{{ entry.title }}">
+                    </div>
+                    <div class="tags">
+                        <p>
+                            <span>{{ entry.tag }}</span>
+                        </p>
+                    </div>
+                </div>
+                <h2>{{ entry.title }}</h2>
+            </a>
+            {% endfor %}
+        </div>
+    </section>
+</div>
