@@ -1,19 +1,22 @@
-import LocomotiveScroll from 'locomotive-scroll';
+import LocomotiveScroll from "locomotive-scroll";
 
 export const lscroll = new LocomotiveScroll({
-    el: document.querySelector('[data-scroll-container]'),
+  el: document.querySelector("[data-scroll-container]"),
+  smooth: true,
+  smartphone: {
     smooth: true,
-    smartphone: {
-        smooth: true
-    }
+  },
+  tablet: {
+    smooth: true,
+  },
 });
 
-window.addEventListener('load', () =>{
+window.addEventListener("load", () => {
+  lscroll.update();
+});
+
+window.addEventListener("resize", () => {
+  setTimeout(() => {
     lscroll.update();
+  }, 10000);
 });
-
-window.addEventListener("resize", ()=> {
-    setTimeout(() => {
-        lscroll.update();   
-    }, 10000);
-})

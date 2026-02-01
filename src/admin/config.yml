@@ -6,7 +6,7 @@
 # ↘ For Testing (Development)
 backend:
   name: github
-  repo: haroldao/haroldao-v2021
+  repo: javecilla/Personal-Web-Portfolio-v2026
   branch: main
   # name: git-gateway
 local_backend: true
@@ -29,7 +29,7 @@ media_folder: static/img
 media_library:
   name: cloudinary
   config:
-    cloud_name: haroldao
+    cloud_name: javecilla
     api_key: 338688524951515
     default_transformations:
       - - fetch_format: auto

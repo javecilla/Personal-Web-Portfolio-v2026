@@ -83,4 +83,35 @@
       }
     }
   }
+  // Mobile-first responsive grid
+  @include media("<=tablet") {
+    .work__infos {
+      grid-template-columns: 1fr;
+      gap: 20px;
+
+      :nth-child(1),
+      :nth-child(2),
+      :nth-child(3) {
+        grid-area: auto; // Reset complex grid areas for mobile
+      }
+    }
+
+    .content {
+      padding: 0 $container-padding-mobile;
+      transition-delay: 0s; // Instant rendering on mobile
+
+      &.is-inview {
+        transition-duration: 0.8s; // Faster animation for mobile
+      }
+    }
+
+    .work__links {
+      gap: 20px; // Tighter spacing for mobile viewports
+
+      a {
+        padding: 12px 24px; // Smaller touch targets optimized
+        font-size: 0.9rem;
+      }
+    }
+  }
 }

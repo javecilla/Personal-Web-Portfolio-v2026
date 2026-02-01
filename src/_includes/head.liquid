@@ -1,28 +1,70 @@
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="{{ "/favicon.ico" | url }}" type="image/ico" sizes="32x32">
+<link rel="sitemap" type="application/xml" href="{{ "/sitemap.xml" | url }}"/>
+
+<!-- Primary Meta Tags -->
 <title>{{ title | default: site.title }}</title>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-<meta name="description" content="{{ description | default: site.description }}"> 
-<meta name="title" content="{{ title | default: site.title }}">
+<meta name="title" content="{{ "Portfolio - Javecilla" | default: site.title }}"/>
+<meta name="description" content="{{ "Personal website serves as a digital portfolio, showcasing my projects, skills, and experiences. This project is a testament to my passion for web development and design." | default: site.description }}" />
+<meta name="abstract" content="Website Portfolio - Jerome Avecilla"  />
+<meta name="keywords" content="Jerome Avecilla, Web Developer, Full-Stack Developer, Vue.js Developer, TypeScript, Laravel, Portfolio"/>
+<meta name="copyright" content="Jerome Avecilla"  />
+<meta name="author" content="Jerome Avecilla" />
 
-<meta name="google-site-verification" content="pXhqXSoicXgqODsICk5dWg8L2DFy-dbGcZFW-L5_3N8" />
+<meta name="robots" content="index, follow"/>
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"/>
+
+<meta name="revisit-after" content="7 days"/>
+<meta name="distribution" content="global"/>
+<meta name="rating" content="general"/>
+<meta name="google-site-verification" content="yn3h_XIX46hpOTXbkr1gnJnX5jjg1Lesyv_xOJHbR9g" />
 
 <!-- Open Graph / Facebook -->
-<meta property="og:type" content="website">
+<meta property="og:type" content="website"/>
 <meta property="og:url" content="{{ page.url | url }}">
-<meta property="og:title" content="{{ title | default: site.title }}">
-<meta property="og:description" content="{{ description | default: site.description }}">
-<meta property="og:image" content="{{ featureImage | default: https://ucarecdn.com/7e98e68f-b5b1-49fd-a2a6-fb14febf8689/-/format/webp/ }}">
-
+<meta property="og:title" content="{{ "Portfolio - Javecilla" | default: site.title }}"/>
+<meta property="og:description" content="{{ "Personal website serves as a digital portfolio, showcasing my projects, skills, and experiences. This project is a testament to my passion for web development and design." | default: site.description }}" />
+<meta property="og:image" content="{{ featureImage | default: https://website-376b6968.fee.xnf.temporary.site/assets/projects/portfolio-website.webp }}" />
+<meta property="og:image:width" content="608" />
+<meta property="og:image:height" content="260" />
+<meta property="og:image:alt" content="Voting System" />
+<meta property="og:locale" content="en_PH" />
+<meta property="og:site_name" content="{{ "Portfolio - Javecilla" | default: site.title }}"/>
+<meta property="article:author" content="https://www.facebook.com/jerome.avecilla24"/>
+<meta property="article:publisher" content="https://www.facebook.com/jerome.avecilla24"/>
+<meta property="fb:pages" content="100924508936440"/>
+<meta property="fb:app_id" content="100924508936440"/>
 
 <!-- Twitter -->
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="{{ page.url | url }}">
-<meta property="twitter:title" content="{{ title | default: site.title }}">
-<meta property="twitter:description" content="{{ description | default: site.description }}">
-<meta property="twitter:image" content="{{ featureImage | default: https://ucarecdn.com/7e98e68f-b5b1-49fd-a2a6-fb14febf8689/-/format/webp/ }}">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="https://twitter.com/goldenminds"/>
+<meta name="twitter:creator" content="https://twitter.com/goldenminds"/>
+<meta name="twitter:title" content="The Golden King, Queen and Fairy 2024 | Voting System v1.5 (Golden Minds Colleges)"/>
+<meta name="twitter:description" content="Golden Minds Colleges Online Voting System! Our journey began in 2023 when we launched our first online voting system for Santa Maria Teen Model 2023, followed by Lakan, Lakambini, and Lakandyosa 2023. Since then, we have been committed to providing a seamless and reliable platform for democratic participation."/>
+<meta property="twitter:image" content="{{ featureImage | default: https://website-376b6968.fee.xnf.temporary.site/assets/projects/portfolio-website.webp }}">
 
+<!-- Additional SEO Tags -->
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="theme-color" content="#ffffff" />
+<meta name="color-scheme" content="light" />
+<link rel='canonical' href="{{ page.url | url }}" />
+<link rel="alternate" type="application/rss+xml" title="An IT student with a professional mindset, actively building my career as a Full-Stack Web Developer. Based in the Philippines, I go beyond the classroom to architect and build robust web applications using Vue.js, TypeScript, and Laravel." href="https://jerome-avecilla.vercel.app/" />
 
+<!-- Mobile App Meta Tags -->
+<meta name="mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="apple-mobile-web-app-title" content="{{ "Portfolio - Javecilla" | default: site.title }}" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="apple-mobile-web-app-title" content="{{ "Portfolio - Javecilla" | default: site.title }}" />
+
+<!-- Preload Fonts -->
 <link rel="preload" href="/src/fonts/MonumentExtended-Regular.woff2" crossorigin="anonymous" as="font" type="font/woff2">
 <link rel="preload" href="/src/fonts/MonumentExtended-Regular.woff" crossorigin="anonymous" as="font" type="font/woff">
 <link rel="preload" href="/src/fonts/SuisseIntl-Regular.woff2" crossorigin="anonymous" as="font" type="font/woff2">
@@ -39,13 +81,9 @@
     />
 </noscript>
 
-<link rel="shortcut icon" href="{{ "/favicon.ico" | url }}" type="image/ico" sizes="32x32">
-<meta name="msapplication-TileColor" content="#000000">
-<meta name="theme-color" content="#ffffff">
-
 <script>window.onload=()=>{document.body.classList.add('loaded')}</script>
 
-
+<!-- Preconnects for Hotjar -->
 <link rel=preconnect href=https://script.hotjar.com/ crossorigin>
 <link rel=preconnect href=https://vars.hotjar.com crossorigin>
 <link rel=preconnect href=https://vc.hotjar.io crossorigin>

@@ -173,4 +173,22 @@
       }
     }
   }
+  // Disable parallax speed on mobile to prevent scroll lock
+  @include media("<=tablet") {
+    [data-scroll-speed] {
+      // Override Locomotive Scroll speed on mobile
+      transform: none !important;
+    }
+
+    .techstack {
+      .part {
+        max-width: 100%; // Prevent horizontal overflow
+        margin-right: 0;
+      }
+    }
+
+    h2 {
+      transition-delay: 0s; // Remove delay on mobile for instant rendering
+    }
+  }
 }

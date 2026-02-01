@@ -1,113 +1,113 @@
-.work__title{
-    margin: 0 0 2rem;
-    text-align: center;
+.work__title {
+  margin: 0 0 2rem;
+  text-align: center;
 }
 
-.work__feature-image{
-    margin-bottom: 5rem;
-    
-    p.image-credit {
-        font-size: .8rem;
-        margin-top: 12px;
-        padding: 0 10px;
-        display: inline-block;
-    }
+.work__feature-image {
+  margin-bottom: 5rem;
 
-    img{
-        width: 100%;
-        height: auto;
-    }
+  p.image-credit {
+    font-size: 0.8rem;
+    margin-top: 12px;
+    padding: 0 10px;
+    display: inline-block;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
 }
-.work__infos{
-    margin-top: 4rem;
-    margin-bottom: 6rem;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 0px 20px;
-    :nth-child(1){
-        grid-area: 1 / 2 / 2 / 4;
-    }
-    :nth-child(2){
-        grid-area: 1 / 8 / 2 / 10;
-    }
-    :nth-child(3){
-        grid-area: 1 / 10 / 2 / 13;
-    }
+.work__infos {
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 0px 20px;
+  :nth-child(1) {
+    grid-area: 1 / 2 / 2 / 4;
+  }
+  :nth-child(2) {
+    grid-area: 1 / 8 / 2 / 10;
+  }
+  :nth-child(3) {
+    grid-area: 1 / 10 / 2 / 13;
+  }
 }
-.work__links{
-    margin-top: 4rem;
-    margin-bottom: 6rem;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 39px;
-    a{
-        padding: 15px 30px;
-        border-radius: 40px;
-        text-align: center;
-        display: block;
-        width: fit-content;
-        // margin: auto;
-    }
-    .link{
-        background: white;
-        color: black;
-    }
-    .dribbble{
-        background: #ea4c89;
-    }
-    .behance{
-        background: #053eff;
-    }
-}
-.work__description{
-    margin: 2rem auto;
+.work__links {
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 39px;
+  a {
+    padding: 15px 30px;
+    border-radius: 40px;
     text-align: center;
-    padding: $container-padding-mobile;
-    max-width: 1080px;
+    display: block;
+    width: fit-content;
+    // margin: auto;
+  }
+  .link {
+    background: white;
+    color: black;
+  }
+  .dribbble {
+    background: #ea4c89;
+  }
+  .behance {
+    background: #053eff;
+  }
+}
+.work__description {
+  margin: 2rem auto;
+  text-align: center;
+  padding: $container-padding-mobile;
+  max-width: 1080px;
+  position: relative;
+  a {
     position: relative;
-    a{
-        position: relative;
-        display: inline-flex;
-        justify-content: center;
-        align-items: center;
-    }
-    a:after {
-        content: "↗";
-        font-size: 15px;
-        margin-left: 6px;
-        display: flex;
-    }
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+  a:after {
+    content: "↗";
+    font-size: 15px;
+    margin-left: 6px;
+    display: flex;
+  }
 }
-.content{
-    padding: 0 3vw;
-    transform: translateY(100%);
-    transition-delay: .5s;
-    transition: all 1.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
-    > *{
-        font-family: $suisse;
-        margin-bottom: 2rem;
+.content {
+  padding: 0 3vw;
+  transform: translateY(100%);
+  transition-delay: 0.5s;
+  transition: all 1.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  > * {
+    font-family: $suisse;
+    margin-bottom: 2rem;
+  }
+  &.is-inview {
+    transform: translateY(0%);
+
+    // *:nth-child(n){
+    //     color: blue;
+    //     transition-delay: 2s;
+    // }
+  }
+  p {
+    img {
+      width: 100%;
+      height: auto;
     }
-    &.is-inview{
-        transform: translateY(0%);
-     
-        // *:nth-child(n){
-        //     color: blue;
-        //     transition-delay: 2s;
-        // }
-    }
-    p{
-        img{
-            width: 100%;
-            height: auto;
-        }
-    }
-    video{
-        max-width: 100%;
-        width: 100%;
-        pointer-events: unset !important;
-    }
+  }
+  video {
+    max-width: 100%;
+    width: 100%;
+    pointer-events: unset !important;
+  }
 }
 // @for $i from 1 through 10 {
 //     .content.is-inview *:nth-child(#{$i}n) {
