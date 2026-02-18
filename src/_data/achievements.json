@@ -7,7 +7,7 @@
       "issuer": "Bulacan State University (Main Campus)",
       "description": "Amid the electrifying atmosphere of the IT Congress Side Events, our team dove headfirst into the Hackathon, ready to tackle real-world challenges. Fueled by creativity, caffeine, and pure determination, we coded our way to victory! Our challenge? Develop an innovative eCommerce website from scratch within the given time limit. With seamless UI and UX logic, and a user-friendly shopping experience, we impressed the judges and clinched the championship title. This victory showcased our expertise in front-end development, problem-solving, and teamwork, proving that pressure is just fuel for innovation!",
       "link": "/achievements/bulsu-13th-it-congress-hackathon-champion",
-      "image": "https://jerome-avecilla.infinityfreeapp.com/assets/portfoliov2026/certifications/bulsu-13th-it-congress-hackathon-champion.webp"
+      "image": "assets/certifications/bulsu-13th-it-congress-hackathon-champion.webp"
     },
     {
       "title": "Salesforce Supported Virtual Internship Program 2025- Philippines Completion",
@@ -16,7 +16,7 @@
       "issuer": "Bulacan State University | SmartBridge | Salesforce",
       "description": "Successfully completed the Salesforce Supported Virtual Internship Program, a comprehensive training program focused on developing skills in customer engagement, sales strategies, and digital marketing. This certification reflects my ability to leverage technology and innovative approaches to enhance customer experiences and drive business growth. It demonstrates my commitment to continuous learning and professional development in the dynamic field of digital marketing and customer relationship management.",
       "link": "/achievements/salesforce-supported-virtual-internship-program-2025",
-      "image": "https://jerome-avecilla.infinityfreeapp.com/assets/portfoliov2026/certifications/salesforce-supportted-virtual-internship-program.webp"
+      "image": "assets/certifications/salesforce-supportted-virtual-internship-program.webp"
     },
     {
       "title": "Introduction to IoT and Digital Transformation Completion",
@@ -25,7 +25,7 @@
       "issuer": "Bulacan State University (Main Campus) | Cisco Networking Academy",
       "description": "Recognized for completing the 'Introduction to IoT and Digital Transformation' course through the Cisco Networking Academy at Bulacan State University. This certification demonstrates my understanding of Internet of Things (IoT) concepts, digital transformation trends, and the integration of smart technologies in modern systems. It reflects my commitment to staying current with emerging technologies in the IT field.",
       "link": "/achievements/introduction-to-iot-and-digital-transformation",
-      "image": "https://jerome-avecilla.infinityfreeapp.com/assets/portfoliov2026/certifications/introduction-to-IoT-and-digital-transformation.webp"
+      "image": "assets/certifications/introduction-to-IoT-and-digital-transformation.webp"
     },
     {
       "title": "BSIT Dean's Lister S.Y 2024-2025",
@@ -34,7 +34,7 @@
       "issuer": "Bulacan State University (Main Campus)",
       "description": "As a dedicated student, I am proud to be recognized as a Dean's Lister in the BSIT program. This recognition is a testament to my academic excellence, academic integrity, and commitment to my studies. I am honored to have been selected for this prestigious award, and I am excited to continue my academic journey and make a positive impact in the field of Information Technology.",
       "link": "/achievements/bsit-deans-lister-sy-2024-2025",
-      "image": "https://jerome-avecilla.infinityfreeapp.com/assets/portfoliov2026/certifications/deans-lister-sy-2024-2025.webp"
+      "image": "assets/certifications/deans-lister-sy-2024-2025.webp"
     },
     {
       "title": "Best Capstone of the Year - SHS for Research and Innovation",
@@ -43,7 +43,7 @@
       "issuer": "Golden Minds Colleges Senior High School",
       "description": "Months of research, sleepless nights, and countless debugging sessions led to something truly remarkable! Our team developed a Web-Based Inventory Management System, designed to streamline stock tracking, optimize resource allocation, and eliminate inefficiencies for businesses. Our innovative approach and technical execution earned us the Best Thesis of the Year award at Golden Minds Colleges (GMC).",
       "link": "/achievements/best-capstone-of-the-year-shs-research-and-innovation",
-      "image": "https://jerome-avecilla.infinityfreeapp.com/assets/portfoliov2026/certifications/best-capstone-of-the-year-research-and-innovation.webp"
+      "image": "assets/certifications/best-capstone-of-the-year-research-and-innovation.webp"
     },
     {
       "title": "AgentBlazer Champion Workshop Completion",
@@ -52,7 +52,7 @@
       "issuer": "Bulacan State University | SmartBridge | Salesforce",
       "description": "Successfully completed the Agentblazer Champion Workshop, a comprehensive training program focused on developing skills in customer engagement, sales strategies, and digital marketing. This certification reflects my ability to leverage technology and innovative approaches to enhance customer experiences and drive business growth. It demonstrates my commitment to continuous learning and professional development in the dynamic field of digital marketing and customer relationship management.",
       "link": "/achievements/agentblazer-champion-workshop-completion",
-      "image": "https://jerome-avecilla.infinityfreeapp.com/assets/portfoliov2026/certifications/agentblazer-champion-workshop-completion.webp"
+      "image": "assets/certifications/agentblazer-champion-workshop-completion.webp"
     }
   ]
 }

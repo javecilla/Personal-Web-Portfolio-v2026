@@ -65,7 +65,8 @@ module.exports = function (eleventyConfig) {
     "./src/admin/config.yml": "./admin/config.yml",
     "./src/admin/index.html": "./admin/index.html",
     "./src/fonts/": "src/fonts",
-    "./https://jerome-avecilla.infinityfreeapp.com/assets/portfoliov2026/": "/",
+    // "./assets/": "/",
+    "./src/assets/": "./assets/",
     "node_modules/locomotive-scroll/dist/locomotive-scroll.min.js":
       "./js/locomotive-scroll.min.js",
     "node_modules/splitting/dist/splitting-lite.js": "./js/splitting-lite.js",
