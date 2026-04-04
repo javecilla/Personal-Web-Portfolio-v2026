@@ -1,16 +1,17 @@
 {
   "frontend": [
-    "HTML 5",
-    "CSS 3",
+    "HTML",
+    "CSS",
     "SCSS",
     "JavaScript",
-    "Bootstrap 5",
-    "jQuery",
+    "Bootstrap CSS",
     "Tailwind CSS",
-    "Vue.js 3",
-    "TypeScript"
+    "Vue.js",
+    "TypeScript",
+    "React JS",
+    "Python"
   ],
-  "backend": ["PHP / Laravel", "MySQL", "PostgreSQL", "Firebase"],
+  "backend": ["Laravel", "MySQL", "PostgreSQL", "Firebase", "Supabase"],
   "devops": ["Git", "Gitlab", "Git Actions", "Docker"],
   "hosting": [
     "Github Pages",
