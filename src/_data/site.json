@@ -7,13 +7,13 @@
   "author": {
     "name": "Jerome Avecilla",
     "bio": "A 3rd Year IT Student who specializes in web and mobile application development.",
-    "avatar": "assets/avatar.webp"
+    "avatar": "/assets/avatar.webp"
   },
   "socials": {
     "instagram": "https://instagram.com/http.javecilla",
     "github": "https://github.com/javecilla",
     "linkedin": "https://linkedin.com/in/jerome-avecilla",
-    "twitter": "https://twitter.com/_javecilla",
+    "x": "https://x.com/_javecilla",
     "email": "jeromesavc@gmail.com"
   }
 }
