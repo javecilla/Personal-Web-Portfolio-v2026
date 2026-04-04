@@ -5,7 +5,7 @@ export const lscroll = new LocomotiveScroll({
   smooth: true,
   // smoothMobile: false,
   smartphone: {
-    smooth: true,
+    smooth: false,
   },
   // tablet: {
   //   smooth: true,
