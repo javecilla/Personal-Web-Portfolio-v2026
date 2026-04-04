@@ -3148,12 +3148,25 @@
 
   });
   window.addEventListener("load", () => {
-    lscroll.update(); //scroll.update();
-  });
-  window.addEventListener("resize", () => {
-    setTimeout(() => {
+    lscroll.update();
+  }); // Update scroll boundaries when the container changes size (e.g. images load, layout shifts)
+
+  const scrollContainer = document.querySelector("[data-scroll-container]");
+
+  if (scrollContainer) {
+    const ro = new ResizeObserver(() => {
       lscroll.update();
-    }, 10000); //scroll.update();
+    });
+    ro.observe(scrollContainer);
+  } // Keep a small debounce for window resize
+
+
+  let resizeTimer;
+  window.addEventListener("resize", () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => {
+      lscroll.update();
+    }, 250);
   });
 
   // these aren't really private, but nor are they really useful to document

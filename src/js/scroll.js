@@ -19,13 +19,22 @@ export const lscroll = new LocomotiveScroll({
 
 window.addEventListener("load", () => {
   lscroll.update();
-  //scroll.update();
 });
 
-window.addEventListener("resize", () => {
-  setTimeout(() => {
+// Update scroll boundaries when the container changes size (e.g. images load, layout shifts)
+const scrollContainer = document.querySelector("[data-scroll-container]");
+if (scrollContainer) {
+  const ro = new ResizeObserver(() => {
     lscroll.update();
-  }, 10000);
+  });
+  ro.observe(scrollContainer);
+}
 
-  //scroll.update();
+// Keep a small debounce for window resize
+let resizeTimer;
+window.addEventListener("resize", () => {
+  clearTimeout(resizeTimer);
+  resizeTimer = setTimeout(() => {
+    lscroll.update();
+  }, 250);
 });
