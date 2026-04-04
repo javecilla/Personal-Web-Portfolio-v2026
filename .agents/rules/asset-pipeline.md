@@ -16,3 +16,8 @@ When modifying styles or client-side scripts, follow the project's build step co
 
 - Write ES6+ modules.
 - Avoid heavy external dependencies. Rely on Vanilla JS for DOM manipulation.
+
+# Process Management
+
+- When executing build scripts (`npm run build`), always append `&& exit` if running in a non-persistent terminal to prevent IDE hang.
+- For watcher scripts (`npm start`), inform the user that the process is persistent and will not terminate until manually stopped by the user via the terminal trash icon.

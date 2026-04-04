@@ -1,0 +1,59 @@
+---
+layout: default.liquid
+bodyClass: "achievement"
+---
+<div class="achievement__page">
+
+    <h1 class="work__title">{{ title }}</h1>
+
+    {% if image %}
+        <section class="work__feature-image">
+            <img src="{{ image }}" alt="{{ title }}">
+        </section>
+    {% endif %}
+
+    <section class="work__infos">
+        <div class="work__infos-footer" style="margin-top: 0;">
+            {% if tag %}
+                <div>
+                    <span>Type</span>
+                    <p>{{ tag }}</p>
+                </div>
+            {% endif %}
+
+            {% if issuer %}
+                <div style="margin-left: auto;">
+                    <span>Issued by</span>
+                    <p>{{ issuer }}</p>
+                </div>
+            {% endif %}
+
+            {% if dateAwarded %}
+                <div style="margin-left: auto;">
+                    <span>Date</span>
+                    <p>{{ dateAwarded }}</p>
+                </div>
+            {% endif %}
+        </div>
+    </section>
+
+    <div class="content" data-scroll data-scroll-repeat="false">
+        <section class="work__description">
+            {{ content }}
+        </section>
+    </div>
+
+    <div class="work__links">
+        <u><a class="link" href="/skill/">Back to Skills & Achievements</a></u>
+    </div>
+
+</div>
+
+{% if color %}
+    <style>
+        body {
+            background-color: {{ color }};
+            --accent-color: {{ color }};
+        }
+    </style>
+{% endif %}
