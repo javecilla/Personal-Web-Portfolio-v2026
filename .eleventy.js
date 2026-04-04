@@ -1,5 +1,6 @@
 // @see https://www.11ty.io/docs/config/
 const fs = require("fs");
+const { DateTime } = require("luxon");
 const htmlmin = require("html-minifier");
 const pluginRespimg = require("eleventy-plugin-respimg");
 const schema = require("@quasibit/eleventy-plugin-schema");
