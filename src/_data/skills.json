@@ -8,10 +8,16 @@
     "Tailwind CSS",
     "Vue.js",
     "TypeScript",
-    "React JS",
+    "React JS"
+  ],
+  "backend": [
+    "Laravel",
+    "MySQL",
+    "PostgreSQL",
+    "Firebase",
+    "Supabase",
     "Python"
   ],
-  "backend": ["Laravel", "MySQL", "PostgreSQL", "Firebase", "Supabase"],
   "devops": ["Git", "Gitlab", "Git Actions", "Docker"],
   "hosting": [
     "Github Pages",
