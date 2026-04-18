@@ -26,36 +26,54 @@ isAvailable: true
 <section class="work__description" style="margin-top: 2rem;">
 <article>
 
-# SPLIT SHIFT - 2D Action-Platformer
+I developed **Split Shift**, a gritty 2D action-platformer, as my final project for IT 307W | Game Development at Bulacan State University. This game explores a unique gameplay concept where two souls fight for control of a single body, creating a rhythm-based combat and platforming experience unlike traditional action games.
 
-This project is a game developed for the IT 307W | GAME DEVELOPMENT course at Bulacan State University.
+<br/>
 
----
+**Problem & Solution**
 
-## About the Game
+Most action-platformers rely on a single character archetype, limiting the tactical depth and player agency. I wanted to create a game where the core mechanic itself became the story—where the player constantly negotiates between two distinct personalities with opposing abilities. The dual-character system forces players to master rhythm and timing, making every shift between Jax and Axel a strategic decision rather than just a visual change.
 
-**Split Shift** is a gritty, high-octane **2D Action-Platformer** that explores the instability of two souls fighting for control of one vessel.
+<br/>
 
-You play as **Jax and Axel**—brothers and underground fighters who became the unwilling subjects of _"Project Gemini,"_ an illegal biological experiment conducted by Dr. Kline. Fused into a single body intended to be the ultimate covert weapon, their goal is simple but desperate: **Escape the Kline Institute.**
+**Key Features**
 
-### How It Works (Core Gameplay)
+- **Dual Protagonist System:** Seamlessly switch between Jax (heavy hitter, crowd control) and Axel (precision striker, mobility expert).
+- **Bio-Rejection Mechanic:** A stress meter that escalates as you play—vision tunnels, audio muffles, and movement degrades if you stay in one persona too long. You must constantly shift to survive.
+- **16 Interactive Scenes:** From the origin story of Project Gemini through the escape from the Kline Institute, each scene introduces new mechanics and narrative depth.
+- **Rhythm Combat & Puzzle Platforming:** A frantic mix of combat encounters and environmental puzzles requiring precise character switching.
+- **Boss Battles:** Face formidable opponents and the architect of your suffering, Dr. Kline.
+- **Arcade Mode:** Unlock extended gameplay after escaping the laboratory.
 
-The game is a frantic mix of **Rhythm Combat** and **Puzzle Platforming**. You aren't just fighting guards; you are fighting your own biology.
+<br/>
 
-- **The Bio-Rejection System:** The shared body cannot sustain one psyche for too long. As you play, a "Stress Meter" fills up. If it peaks, you suffer from "Bio-Rejection"—your vision tunnels, audio muffles, and movement becomes sluggish.
-- **The Mechanic:** To survive, you must **SHIFT** between the two brothers constantly. Shifting resets the stress meter and swaps your abilities, creating a rhythmic flow of combat and traversal.
+**Technical Challenges & Solutions**
 
-### The Dual Protagonists
+- **Dual Character System:** Implementing two characters with distinct movesets required careful state management. I built a character abstraction layer in C# to swap behaviors seamlessly without code duplication.
+- **Bio-Rejection Feedback:** Designing visual and audio feedback for the stress meter was critical. I used shader-based screen distortion, audio compression, and animation speed reduction to create an immersive sense of internal conflict.
+- **Level Design Complexity:** Balancing 16 scenes with escalating difficulty required extensive playtesting and iterative refinement. Each scene had to teach new mechanics while maintaining narrative coherence.
 
-| **Jax (The Brawn)**                                                          | **Axel (The Projectile)**                                                      |
-| :--------------------------------------------------------------------------- | :----------------------------------------------------------------------------- |
-| **Role:** Crowd Control & Heavy Hitter                                       | **Role:** Precision & Mobility                                                 |
-| **Combat:** Raw, heavy punches with high knockback. Breaks shields.          | **Combat:** Long-range energy bolts and AOE "Energy Flare" attacks.            |
-| **Traversal:** Double Jump, smashes weakened walls, forces open heavy doors. | **Traversal:** Hovers over traps, dashes instantly, activates energy switches. |
+<br/>
 
----
+**Impact**
 
-## Game Scenes
+- Demonstrated mastery of game mechanics design by creating an innovative core loop.
+- Achieved seamless integration of gameplay and narrative through the bio-rejection system.
+- Delivered a polished, story-driven experience that stands out from typical academic projects.
+
+<br/>
+
+**Architecture**
+
+- **Engine:** Unity 2022 LTS for robust performance and asset pipeline.
+- **Language:** C# with SOLID principles for maintainable, scalable code.
+- **Art & Animation:** Custom sprite work with frame-by-frame animation for authentic pixel art feel.
+- **Audio:** Layered sound design responding to gameplay state changes.
+
+This project deepened my expertise in game architecture, teaching me how to build systems that serve both mechanical and narrative goals. The challenge of keeping the core loop engaging across 16 scenes pushed me to think critically about pacing and player retention.
+
+</article>
+</section>
 
 From the origin story to the final escape, here is a breakdown of the game's progression:
 
@@ -79,7 +97,7 @@ From the origin story to the final escape, here is a breakdown of the game's pro
 | **15** | ![Scene 15](https://jerome-avecilla.infinityfreeapp.com/assets/gamedev/ss-scene-15.gif) | **Collection:** Gathering items scattered across the map to progress.                  |
 | **16** | ![Scene 16](https://jerome-avecilla.infinityfreeapp.com/assets/gamedev/ss-scene-16.gif) | **Freedom:** Unlocking Arcade Mode after escaping the laboratory.                      |
 
----
+<br/>
 
 ## Project Documentation
 
@@ -92,7 +110,7 @@ Access the official documentation and guidelines for **Split Shift** below.
 | **Game Presentation (PTT)**    | The pitch deck summarizing the game concept, art style, and core features.                  | [**View Slides**](https://drive.google.com/file/d/1UuoMdzFu_JCO8D6Yx1kG_GEZg5rYIUOG/view?usp=drive_link)  |
 | **Coding Standards**           | **MANDATORY.** Rules for C# scripting, Unity file structure, and Git workflow.              |                                 [**Read Docs**](./Docs/CODE-STANDARDS.md)                                 |
 
----
+<br/>
 
 _Developed for the Final Project in Game Development._
 
