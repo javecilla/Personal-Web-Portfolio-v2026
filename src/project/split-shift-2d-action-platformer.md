@@ -1,9 +1,30 @@
 ---
-layout: single-project.liquid
 title: "Split Shift - 2D Action-Platformer"
+featureImage: "/assets/projects/split-shift-2d-action-platformer.png"
+clientName: ""
+category: "Academic"
+projectUrl: ""
+githubUrl: ""
+isHighlight: true
+isRecent: true
+isAvailable: true
 ---
 
-![Logo](/assets/projects/split-shift-2d-action-platformer.png)
+<div class="work__links" style="margin-top: 3rem; display: flex; gap: 1.5rem; flex-wrap: wrap; justify-content: center;">
+    <u><a class="link" href="/project/">Back to Projects</a></u>
+</div>
+
+<section class="work__description" style="margin-top: 2rem;">
+    <h3 style="text-align: center;">Technologies Used</h3>
+    <ul style="list-style-type: none; padding: 0; margin-top: 1rem; display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+        <li style="background: rgba(255,255,255,0.1); padding: 0.5rem 1rem; border-radius: 4px; font-size: 0.9rem;">C#</li>
+        <li style="background: rgba(255,255,255,0.1); padding: 0.5rem 1rem; border-radius: 4px; font-size: 0.9rem;">Unity</li>
+        <li style="background: rgba(255,255,255,0.1); padding: 0.5rem 1rem; border-radius: 4px; font-size: 0.9rem;">Game Design</li>
+    </ul>
+</section>
+
+<section class="work__description" style="margin-top: 2rem;">
+<article>
 
 # SPLIT SHIFT - 2D Action-Platformer
 
@@ -74,3 +95,6 @@ Access the official documentation and guidelines for **Split Shift** below.
 ---
 
 _Developed for the Final Project in Game Development._
+
+</article>
+</section>
