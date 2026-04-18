@@ -370,6 +370,68 @@
       "isRecent": false,
       "isAvailable": true,
       "link": "/project/gallery-website"
+    },
+    {
+      "id": 11,
+      "title": "Split Shift - 2D Action-Platformer",
+      "description": "Split Shift is a gritty, high-octane 2D Action-Platformer that explores the instability of two souls fighting for control of one vessel. Developed as the final project for IT 307W | Game Development at Bulacan State University.\n\nYou play as Jax and Axel—brothers fused into a single body through Project Gemini, an illegal biological experiment. Their goal: escape the Kline Institute.\n\nKey Features\n- Dual Protagonist System: Switch between Jax (crowd control & heavy hitter) and Axel (precision & mobility).\n- Bio-Rejection Mechanic: Manage a stress meter that fills as you play. Shift between brothers to reset and swap abilities, creating rhythmic gameplay.\n- 16 Interactive Scenes: From origin story to escape, each scene introduces new mechanics and story elements.\n- Rhythm Combat & Puzzle Platforming: Frantic mix of combat and traversal challenges.\n- Boss Battles: Defeat experiments and Dr. Kline to gain freedom.\n- Arcade Mode: Unlocked after escaping the laboratory for extended gameplay.\n\nTechnical Highlights\n- Implemented dual character system with dynamic ability swapping.\n- Bio-Rejection system manages player stress and gameplay flow.\n- Complex level design with environmental puzzles and enemy encounters.\n- Project Gemini narrative unfolds through 16 carefully designed scenes.\n\nThis academic project demonstrates mastery in game mechanics design, narrative integration, and complex system implementation.",
+      "image": "/assets/projects/split-shift-2d-action-platformer.png",
+      "githubUrl": "",
+      "demoUrl": "",
+      "technologies": [
+        {
+          "name": "C#",
+          "icon": "csharpIcon"
+        },
+        {
+          "name": "Unity",
+          "icon": "unityIcon"
+        },
+        {
+          "name": "Game Design",
+          "icon": "gameIcon"
+        }
+      ],
+      "category": "Academic",
+      "isHighlight": true,
+      "isRecent": true,
+      "isAvailable": true,
+      "link": "/project/split-shift-2d-action-platformer"
+    },
+    {
+      "id": 12,
+      "title": "CineMatch - Real-time Collaborative Movie Discovery Engine",
+      "description": "CineMatch is an enterprise-grade collaborative engine designed to eliminate decision paralysis for movie nights. Developed as the final project for IT 308W | Mobile Application Development 2 at Bulacan State University.\n\nUsing a real-time swiping ecosystem, users can sync with friends to find the perfect film. The application leverages the TMDB (The Movie Database) API for a massive content catalog and Firebase Realtime Database to maintain low-latency synchronization between lobby members.\n\nHow It Works\n- The Lobby Ecosystem: A host creates a room, generating a unique Room Code. Members join the session in real-time, creating a shared execution context.\n- The Swiping Logic: Swipe through trending movies. Yes swipes are recorded in the cloud, while No swipes are discarded.\n- The Match: Once every member in the lobby selects Yes for the same title, a Match Found event triggers, securing your movie night.\n\nKey Features\n- Movie Discovery: Dynamic display of movies from TMDB, search functionality, and interactive carousels.\n- User Personalization: Secure registration/login via Firebase, Favorites list, and Watchlist management.\n- Collaborative Swiping: Real-time lobby ecosystem with sub-second synchronization and Swipe-to-Match voting mechanic.\n- Cross-Platform Sync: Firebase Realtime Database ensures all lobby members stay synchronized in real-time.\n\nTechnical Highlights\n- MVVM Architecture with Android Material Design 3.\n- Retrofit 2 and OkHttp for efficient API communication.\n- Firebase Authentication and Realtime Database for low-latency collaboration.\n- Glide for optimized image loading and Lottie for JSON animations.",
+      "image": "/assets/projects/cinematch.png",
+      "githubUrl": "",
+      "demoUrl": "",
+      "technologies": [
+        {
+          "name": "Java",
+          "icon": "javaIcon"
+        },
+        {
+          "name": "Android",
+          "icon": "androidIcon"
+        },
+        {
+          "name": "Firebase",
+          "icon": "firebaseIcon"
+        },
+        {
+          "name": "Retrofit",
+          "icon": "retrofitIcon"
+        },
+        {
+          "name": "TMDB API",
+          "icon": "apiIcon"
+        }
+      ],
+      "category": "Academic",
+      "isHighlight": true,
+      "isRecent": true,
+      "isAvailable": true,
+      "link": "/project/cinematch-android-app"
     }
   ]
 }
