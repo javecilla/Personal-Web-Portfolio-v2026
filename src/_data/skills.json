@@ -36,6 +36,7 @@
     { "name": "Cursor", "url": "javascript:void(0)" },
     { "name": "Claude Code", "url": "javascript:void(0)" },
     { "name": "Gemini CLI", "url": "javascript:void(0)" },
+    { "name": "Codex", "url": "javascript:void(0)" },
     { "name": "Warp", "url": "javascript:void(0)" },
     { "name": "Antigravity", "url": "javascript:void(0)" },
     { "name": "Figma", "url": "javascript:void(0)" },
