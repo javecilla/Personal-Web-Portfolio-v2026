@@ -29,6 +29,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("_redirects");
   eleventyConfig.addPassthroughCopy("./src/robots.txt");
   eleventyConfig.addPassthroughCopy("./src/js/app.js");
+  eleventyConfig.addPassthroughCopy("googlef51e6b6de6793c2e.html");
 
   // @see https://github.com/eeeps/eleventy-respimg
   eleventyConfig.cloudinaryCloudName = "javecilla";
