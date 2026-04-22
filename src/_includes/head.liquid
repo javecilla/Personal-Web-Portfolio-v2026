@@ -5,6 +5,16 @@
 
 {% if googleVerification %}<meta name="google-site-verification" content="RAw3XoeQlQcldgqkMijkj8jMucAoJTaY_Ns44cioVfM" />{% endif %}
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-BHPREYCBLP"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-BHPREYCBLP');
+</script>
+
 <!-- Primary Meta Tags -->
 <title>{{ title | default: site.title | default: "Portfolio - Javecilla" }}</title>
 <meta name="title" content="{{ title | default: site.title | default: "Portfolio - Javecilla" }}"/>
