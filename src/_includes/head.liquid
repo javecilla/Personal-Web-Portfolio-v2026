@@ -3,6 +3,8 @@
 <link rel="shortcut icon" href="{{ "/assets/favicon.ico" | url }}" type="image/x-icon" sizes="32x32">
 <link rel="sitemap" type="application/xml" href="{{ "/sitemap.xml" | url }}"/>
 
+{% if googleVerification %}<meta name="google-site-verification" content="RAw3XoeQlQcldgqkMijkj8jMucAoJTaY_Ns44cioVfM" />{% endif %}
+
 <!-- Primary Meta Tags -->
 <title>{{ title | default: site.title | default: "Portfolio - Javecilla" }}</title>
 <meta name="title" content="{{ title | default: site.title | default: "Portfolio - Javecilla" }}"/>
