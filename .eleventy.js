@@ -69,6 +69,7 @@ module.exports = function (eleventyConfig) {
     "./src/fonts/": "src/fonts",
     // "./assets/": "/",
     "./src/assets/": "./assets/",
+    "./src/assets/favicon.ico": "./favicon.ico",
     "node_modules/locomotive-scroll/dist/locomotive-scroll.min.js":
       "./js/locomotive-scroll.min.js",
     "node_modules/splitting/dist/splitting-lite.js": "./js/splitting-lite.js",
