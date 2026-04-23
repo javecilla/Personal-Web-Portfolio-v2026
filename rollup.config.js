@@ -14,6 +14,7 @@ export default {
     {
       file: "src/js/app.js",
       format: "umd",
+      plugins: [terser()], // Always minify output
     },
   ],
   plugins: [
