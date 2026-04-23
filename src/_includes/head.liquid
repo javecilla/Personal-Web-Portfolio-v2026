@@ -1,13 +1,9 @@
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-583463T7');</script>
-<!-- End Google Tag Manager -->
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Preconnect to CDN for background pattern -->
+<link rel="preconnect" href="https://s.cdpn.io" crossorigin>
+<!-- Preload LCP image -->
+<link rel="preload" as="image" href="/assets/me111.webp" fetchpriority="high">
 <link rel="shortcut icon" href="{{ "/assets/favicon.ico" | url }}" type="image/x-icon" sizes="32x32">
 <link rel="sitemap" type="application/xml" href="{{ "/sitemap.xml" | url }}"/>
 
@@ -79,8 +75,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <script>window.onload=()=>{document.body.classList.add('loaded')}</script>
 
-<!-- Preconnects for Hotjar -->
-<link rel=preconnect href=https://script.hotjar.com/ crossorigin>
-<link rel=preconnect href=https://vars.hotjar.com crossorigin>
-<link rel=preconnect href=https://vc.hotjar.io crossorigin>
-<link rel=preconnect href=https://in.hotjar.com crossorigin>
+<!-- Google Tag Manager (deferred until after page load) -->
+<script>
+window.addEventListener('load', function() {
+  (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-583463T7');
+}, false);
+</script>
+<!-- End Google Tag Manager -->

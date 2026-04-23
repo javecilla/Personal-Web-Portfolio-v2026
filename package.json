@@ -29,7 +29,8 @@
     "rollup": "^2.50.6",
     "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-terser": "^6.1.0"
+    "rollup-plugin-terser": "^6.1.0",
+    "sharp": "^0.34.5"
   },
   "dependencies": {
     "@quasibit/eleventy-plugin-sitemap": "^2.1.4",
