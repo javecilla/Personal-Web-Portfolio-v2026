@@ -1,6 +1,45 @@
 {
   "data": [
     {
+      "id": 13,
+      "title": "ARENA.PH Run Club",
+      "description": "ARENA.PH Run Club is a premier Filipino running community platform dedicated to connecting runners across the Philippines. From the scenic routes of UP Diliman and BGC to the challenging trails of Timberland, this platform celebrates the local running culture and lifestyle — bridging the gap between solo running and community excellence.\n\nBuilt for Filipino runners by a Filipino developer, it serves as the digital home for a growing grassroots movement. The platform helps runners find their tribe, access community-exclusive events, and achieve personal bests with the support of a passionate, nationwide network.\n\nCommunity Stats\n- 500+ Filipino Runners\n- 8+ Cities across the Philippines\n- 52+ Weekly Group Runs\n- 200+ PRs Broken and Goals Achieved\n\nKey Features\n- Community Hub for Filipino runners to connect, share, and motivate each other.\n- Event Discovery for group runs, races, and training sessions nationwide.\n- Local Route Highlights from iconic spots like UP Diliman, BGC, and Timberland.\n- Member Achievements to track and celebrate personal records within the community.\n- Responsive Design optimized for mobile and desktop.\n\nArchitecture\n- Frontend: Next.js with TypeScript for a performant, type-safe, SEO-optimized web app.\n- Styling: Tailwind CSS for a clean, mobile-first design system.\n- Backend Services: Firebase for real-time database, authentication, and storage.\n- AI Integration: Conversational chatbot for community support and FAQs.\n- Deployment: Vercel for zero-downtime CI/CD with global edge distribution.",
+      "image": "/assets/projects/arenaphrunclub.png",
+      "githubUrl": "https://github.com/javecilla/arena.ph-run-club",
+      "demoUrl": "https://arenaphrunclub.vercel.app/",
+      "technologies": [
+        {
+          "name": "Next.js",
+          "icon": "nextIcon"
+        },
+        {
+          "name": "React JS",
+          "icon": "reactIcon"
+        },
+        {
+          "name": "TypeScript",
+          "icon": "tsIcon"
+        },
+        {
+          "name": "Tailwind CSS",
+          "icon": "tailwindIcon"
+        },
+        {
+          "name": "Firebase",
+          "icon": "firebaseIcon"
+        },
+        {
+          "name": "Vercel",
+          "icon": "vercelIcon"
+        }
+      ],
+      "category": "Client",
+      "isHighlight": true,
+      "isRecent": true,
+      "isAvailable": true,
+      "link": "/project/arena-ph-run-club"
+    },
+    {
       "id": 1,
       "title": "Portfolio Website",
       "description": "My personal website serves as a digital portfolio, showcasing my projects, skills, and experiences. This project is a testament to my passion for web development and design.",
@@ -67,37 +106,6 @@
       "link": "/project/online-voting-system"
     },
     {
-      "id": 10,
-      "title": "Kalat Mo, Yaman Ko",
-      "description": "I developed Kalat Mo, Yaman Ko, a community-driven digital platform designed to transform clutter into opportunities and strengthen local connections through sustainability.\n\nThis platform empowers users to share, give away, and repurpose pre-loved items, aligning with the core principles of Reduce, Reuse, and Recycle. Beyond just item sharing, it’s a space built to promote eco-conscious living and foster a collaborative community ecosystem.\n\nI was referred by my professor to join the project team as the Frontend Developer, where I handled the full front-end implementation—ensuring a clean, responsive, and accessible user interface. The platform also integrates an automated CI/CD pipeline for frictionless deployment and iteration.\n\nKey Features\n\nCommunity-Centered Experience\n- Item Sharing & Repurposing – Users can give away or claim pre-loved items.\n- Eco-Sustainability Focus – Encourages reducing waste through community engagement.\n- Intuitive Navigation – Simple, guided flow for ease of use.\n\nFrontend Development Excellence\n- Responsive Web Design – Optimized for both desktop and mobile experiences.\n- Lightweight & Fast UI – Prioritizing performance and accessibility.\n- Clean Visual Hierarchy – Organized content that aligns with sustainability goals.\n\nCI/CD & Automation\n- GitHub Auto-Deployment – Every push to the main branch triggers live updates.\n- Continuous Integration – Smooth release cycles for fast iteration.\n- Scalable Codebase – Structured for future feature rollouts.\n\nThis project reflects a fusion of sustainable innovation and clean frontend engineering—a platform built to inspire communities to turn clutter into collective value.",
-      "image": "/assets/projects/kalat-mo-yaman-ko.webp",
-      "githubUrl": "https://github.com/javecilla/Kalat-Mo-Yaman-Ko",
-      "demoUrl": "https://website-079a545a.fee.xnf.temporary.site/",
-      "technologies": [
-        {
-          "name": "HTML",
-          "icon": "htmlIcon"
-        },
-        {
-          "name": "CSS",
-          "icon": "cssIcon"
-        },
-        {
-          "name": "Bootstrap",
-          "icon": "bootstrapIcon"
-        },
-        {
-          "name": "JavaScript",
-          "icon": "jsIcon"
-        }
-      ],
-      "category": "Client",
-      "isHighlight": false,
-      "isRecent": true,
-      "isAvailable": true,
-      "link": "/project/kalat-mo-yaman-ko"
-    },
-    {
       "id": 4,
       "title": "Ph-En Vocabulary Web App",
       "description": "I developed the Philippine-English Vocabulary Web App as a commissioned project for fourth-year Bachelor of Secondary Education (BSED) students majoring in English at Polytechnic University of the Philippines (PUP). Designed to enhance vocabulary mastery, this web app offers interactive learning tools, pronunciation guides, and quizzes to support effective language acquisition.\n\nKey Features\n- Extensive Word Collection: Covers Philippine English words with clear meanings.\n- Pronunciation Guide: Includes audio support to ensure correct pronunciation.\n- Contextual Usage: Sample sentences demonstrate real-world application.\n- Visual Aids: Pictures enhance memory retention.\n- Interactive Quizzes: Users can test their knowledge and track progress.\n- User Customization: Personalized settings for an adaptive learning experience.\n\nProject Timeline\n- August 2024 - Development & Launch: Initiated after discussions with PUP students and built to meet their academic needs.\n\nTechnical Challenges & Solutions\n- Audio Integration: Implemented a seamless audio playback feature for pronunciation guides.\n- Optimized Database Queries: Ensured fast retrieval of vocabulary data through efficient indexing.\n\nImpact\n- Improved vocabulary retention for students using structured learning modules.\n- Provided an accessible and engaging tool for self-paced learning.\n\nArchitecture\n- Backend: PHP for API development and content management.\n- Frontend: JavaScript with Bootstrap for a responsive UI.\n- Database: MySQL with optimized queries for efficient word lookup.\n- Deployment: Hosted on Hostinger for reliability and scalability.\n\nThis project reinforced my expertise in full-stack web development, particularly in integrating multimedia elements and optimizing database performance. The challenge of making vocabulary learning interactive pushed me to refine user experience design and create a tool that balances education with engagement.",
@@ -131,6 +139,37 @@
       "isRecent": false,
       "isAvailable": true,
       "link": "/project/ph-en-vocabulary-web-app"
+    },
+    {
+      "id": 10,
+      "title": "Kalat Mo, Yaman Ko",
+      "description": "I developed Kalat Mo, Yaman Ko, a community-driven digital platform designed to transform clutter into opportunities and strengthen local connections through sustainability.\n\nThis platform empowers users to share, give away, and repurpose pre-loved items, aligning with the core principles of Reduce, Reuse, and Recycle. Beyond just item sharing, it’s a space built to promote eco-conscious living and foster a collaborative community ecosystem.\n\nI was referred by my professor to join the project team as the Frontend Developer, where I handled the full front-end implementation—ensuring a clean, responsive, and accessible user interface. The platform also integrates an automated CI/CD pipeline for frictionless deployment and iteration.\n\nKey Features\n\nCommunity-Centered Experience\n- Item Sharing & Repurposing – Users can give away or claim pre-loved items.\n- Eco-Sustainability Focus – Encourages reducing waste through community engagement.\n- Intuitive Navigation – Simple, guided flow for ease of use.\n\nFrontend Development Excellence\n- Responsive Web Design – Optimized for both desktop and mobile experiences.\n- Lightweight & Fast UI – Prioritizing performance and accessibility.\n- Clean Visual Hierarchy – Organized content that aligns with sustainability goals.\n\nCI/CD & Automation\n- GitHub Auto-Deployment – Every push to the main branch triggers live updates.\n- Continuous Integration – Smooth release cycles for fast iteration.\n- Scalable Codebase – Structured for future feature rollouts.\n\nThis project reflects a fusion of sustainable innovation and clean frontend engineering—a platform built to inspire communities to turn clutter into collective value.",
+      "image": "/assets/projects/kalat-mo-yaman-ko.webp",
+      "githubUrl": "https://github.com/javecilla/Kalat-Mo-Yaman-Ko",
+      "demoUrl": "https://website-079a545a.fee.xnf.temporary.site/",
+      "technologies": [
+        {
+          "name": "HTML",
+          "icon": "htmlIcon"
+        },
+        {
+          "name": "CSS",
+          "icon": "cssIcon"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "bootstrapIcon"
+        },
+        {
+          "name": "JavaScript",
+          "icon": "jsIcon"
+        }
+      ],
+      "category": "Client",
+      "isHighlight": false,
+      "isRecent": true,
+      "isAvailable": true,
+      "link": "/project/kalat-mo-yaman-ko"
     },
     {
       "id": 2,

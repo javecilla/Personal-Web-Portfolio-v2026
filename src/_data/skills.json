@@ -25,9 +25,13 @@
     "Hostgator",
     "Go Daddy",
     "Hostinger",
+    "Digital Ocean",
     "InfinityFree",
-    "Google Cloud Hosting"
+    "Google Cloud Hosting",
+    "Cloudflare",
+    "AWS Cloud"
   ],
+  "ai": ["RAG", "Fine-tuning", "MCP", "REST API", "LLM", "Agentic Workflows"],
   "tools": [
     { "name": "Github Desktop", "url": "javascript:void(0)" },
     { "name": "Gitbash", "url": "javascript:void(0)" },
@@ -40,6 +44,7 @@
     { "name": "Warp", "url": "javascript:void(0)" },
     { "name": "Antigravity", "url": "javascript:void(0)" },
     { "name": "Figma", "url": "javascript:void(0)" },
-    { "name": "Canva", "url": "javascript:void(0)" }
+    { "name": "Canva", "url": "javascript:void(0)" },
+    { "name": "N8N", "url": "javascript:void(0)" }
   ]
 }
