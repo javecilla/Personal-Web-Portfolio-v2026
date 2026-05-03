@@ -30,6 +30,18 @@ header{
                     font-size: .8rem;
                 }
             }
+            &.link--cv a{
+                @include media(">desktop"){
+                    background: white;
+                    color: var(--accent-color);
+                    font-weight: 600;
+                    transition: background .3s ease, color .3s ease;
+                    &:hover{
+                        background: transparent;
+                        color: white;
+                    }
+                }
+            }
         }
     }
     a{

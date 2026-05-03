@@ -1,9 +1,15 @@
 <nav>
     <ul>
         {% for entry in nav.pages %}
+        {% if entry.external %}
+        <li title="{{ entry.name }}" class="link link--cv">
+            <a href="{{ entry.url }}" target="_blank" rel="noopener noreferrer">{{ entry.name }}</a>
+        </li>
+        {% else %}
         <li title="{{ entry.name }}" class="link {% if page.url contains entry.url %}active{% endif %}">
             <a href="{{ entry.url }}">{{ entry.name }}</a>
         </li>
+        {% endif %}
         {% endfor %}
     </ul>
 </nav>
