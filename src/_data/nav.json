@@ -11,6 +11,11 @@
     {
       "name": "Project",
       "url": "/project/"
+    },
+    {
+      "name": "Download CV",
+      "url": "/assets/resume.pdf?last_updated=05042026",
+      "external": true
     }
   ]
 }
