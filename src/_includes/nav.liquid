@@ -1,7 +1,10 @@
+<!-- src/_includes/nav.liquid -->
 <nav>
     <ul>
         {% for entry in nav.pages %}
-        {% if entry.external %}
+        {% if hideExternal and entry.external %}
+            <!-- Skip external links if hideExternal is true -->
+        {% elsif entry.external %}
         <li title="{{ entry.name }}" class="link link--cv">
             <a href="{{ entry.url }}" target="_blank" rel="noopener noreferrer">{{ entry.name }}</a>
         </li>
