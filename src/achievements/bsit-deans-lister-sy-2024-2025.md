@@ -1,5 +1,5 @@
 ---
-title: "BSIT Dean's Lister S.Y 2024-2025"
+title: "Consistent BSIT Dean's Lister S.Y 2024-2025, 2025-2026"
 tag: "Academic"
 dateAwarded: "May 2025"
 issuer: "Bulacan State University (Main Campus)"

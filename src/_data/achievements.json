@@ -28,15 +28,6 @@
       "image": "/assets/certifications/introduction-to-IoT-and-digital-transformation.webp"
     },
     {
-      "title": "BSIT Dean's Lister S.Y 2024-2025",
-      "tag": "Academic",
-      "date": "May 2025",
-      "issuer": "Bulacan State University (Main Campus)",
-      "description": "As a dedicated student, I am proud to be recognized as a Dean's Lister in the BSIT program. This recognition is a testament to my academic excellence, academic integrity, and commitment to my studies. I am honored to have been selected for this prestigious award, and I am excited to continue my academic journey and make a positive impact in the field of Information Technology.",
-      "link": "/achievements/bsit-deans-lister-sy-2024-2025",
-      "image": "/assets/certifications/deans-lister-sy-2024-2025.webp"
-    },
-    {
       "title": "Best Capstone of the Year - SHS for Research and Innovation",
       "tag": "Academic",
       "date": "April 2022",
@@ -53,6 +44,15 @@
       "description": "Successfully completed the Agentblazer Champion Workshop, a comprehensive training program focused on developing skills in customer engagement, sales strategies, and digital marketing. This certification reflects my ability to leverage technology and innovative approaches to enhance customer experiences and drive business growth. It demonstrates my commitment to continuous learning and professional development in the dynamic field of digital marketing and customer relationship management.",
       "link": "/achievements/agentblazer-champion-workshop-completion",
       "image": "/assets/certifications/agentblazer-champion-workshop-completion.webp"
+    },
+    {
+      "title": "Consistent BSIT Dean's Lister S.Y 2024-2025, 2025-2026",
+      "tag": "Academic",
+      "date": "May 2025",
+      "issuer": "Bulacan State University (Main Campus)",
+      "description": "As a dedicated student, I am proud to be recognized as a Dean's Lister in the BSIT program. This recognition is a testament to my academic excellence, academic integrity, and commitment to my studies. I am honored to have been selected for this prestigious award, and I am excited to continue my academic journey and make a positive impact in the field of Information Technology.",
+      "link": "/achievements/bsit-deans-lister-sy-2024-2025",
+      "image": "/assets/certifications/deans-lister-sy-2024-2025.webp"
     }
   ]
 }
