@@ -1,5 +1,5 @@
 ---
-title: "Introduction to IoT and Digital Transformation Completion"
+title: "Introduction to IoT and Digital Transformation"
 tag: "Certification"
 dateAwarded: "November 2024"
 issuer: "Bulacan State University (Main Campus) | Cisco Networking Academy"
