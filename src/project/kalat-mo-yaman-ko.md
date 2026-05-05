@@ -3,7 +3,7 @@ title: "Kalat Mo, Yaman Ko"
 featureImage: "/assets/projects/kalat-mo-yaman-ko.webp"
 clientName: ""
 category: "Client"
-projectUrl: "https://website-079a545a.fee.xnf.temporary.site/"
+projectUrl: "http://waste2wealth2.eba-hc3qkxit.ap-southeast-1.elasticbeanstalk.com/"
 githubUrl: "https://github.com/javecilla/Kalat-Mo-Yaman-Ko"
 isHighlight: false
 isRecent: true
@@ -34,14 +34,9 @@ This platform empowers users to share, give away, and repurpose pre-loved items,
 
 I was referred by my professor to join the project team as the Frontend Developer, where I handled the full front-end implementation—ensuring a clean, responsive, and accessible user interface. The platform also integrates an automated CI/CD pipeline for frictionless deployment and iteration.
 
-
-
 <br/>
 
 **Key Features**
-
-
-
 
 <br/>
 
@@ -51,8 +46,6 @@ I was referred by my professor to join the project team as the Frontend Develope
 - Eco-Sustainability Focus – Encourages reducing waste through community engagement.
 - Intuitive Navigation – Simple, guided flow for ease of use.
 
-
-
 <br/>
 
 **Frontend Development Excellence**
@@ -60,8 +53,6 @@ I was referred by my professor to join the project team as the Frontend Develope
 - Responsive Web Design – Optimized for both desktop and mobile experiences.
 - Lightweight & Fast UI – Prioritizing performance and accessibility.
 - Clean Visual Hierarchy – Organized content that aligns with sustainability goals.
-
-
 
 <br/>
 
