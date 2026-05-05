@@ -16,9 +16,10 @@
     "PostgreSQL",
     "Firebase",
     "Supabase",
-    "Python"
+    "Python",
+    "Next.js"
   ],
-  "devops": ["Git", "Gitlab", "Git Actions", "Docker"],
+  "devops": ["Git", "Github", "Git Actions", "Docker"],
   "hosting": [
     "Github Pages",
     "Vercel",
