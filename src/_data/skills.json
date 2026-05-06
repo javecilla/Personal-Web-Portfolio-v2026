@@ -8,9 +8,11 @@
     "Tailwind CSS",
     "Vue.js",
     "TypeScript",
-    "React JS"
+    "React JS",
+    "GSAP"
   ],
   "backend": [
+    "PHP",
     "Laravel",
     "MySQL",
     "PostgreSQL",
