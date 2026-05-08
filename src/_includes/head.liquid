@@ -25,13 +25,13 @@
 <!-- Primary Meta Tags -->
 <title>{{ title | default: site.title | default: "Portfolio - Javecilla" }}</title>
 <meta name="title" content="{{ title | default: site.title | default: "Portfolio - Javecilla" }}"/>
-<meta name="description" content="{{ description | default: site.description | default: "Personal website serves as a digital portfolio, showcasing my projects, skills, and experiences. This project is a testament to my passion for web development and design." }}" />
+<meta name="description" content="{{ description | default: site.description | default: "Independent Full-Stack Web Developer specializing in Laravel, Vue/React, and PostgreSQL. Focused on integrating AI, LLMs, and Agent systems into scalable digital solutions. Proven track record in delivering commissioned web apps, automating workflows, and optimizing system architecture. Seeking to build forward-thinking, AI-powered applications." }}" />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content="website"/>
 <meta property="og:url" content="{{ page.url | url | prepend: 'https://javecilla.vercel.app' }}">
 <meta property="og:title" content="{{ title | default: site.title | default: "Portfolio - Javecilla" }}"/>
-<meta property="og:description" content="{{ description | default: site.description | default: "Personal website serves as a digital portfolio, showcasing my projects, skills, and experiences." }}" />
+<meta property="og:description" content="{{ description | default: site.description | default: "Independent Full-Stack Web Developer specializing in Laravel, Vue/React, and PostgreSQL. Focused on integrating AI, LLMs, and Agent systems into scalable digital solutions. Proven track record in delivering commissioned web apps, automating workflows, and optimizing system architecture. Seeking to build forward-thinking, AI-powered applications." }}" />
 <meta property="og:image" content="{{ featureImage | default: "https://javecilla.vercel.app/assets/projects/portfolio-website.webp" }}" />
 <meta property="og:site_name" content="{{ site.title | default: "Portfolio - Javecilla" }}"/>
 
@@ -40,15 +40,15 @@
 <meta name="twitter:site" content="@_javecilla"/>
 <meta name="twitter:creator" content="@_javecilla"/>
 <meta name="twitter:title" content="{{ title | default: site.title | default: "Portfolio - Javecilla" }}"/>
-<meta name="twitter:description" content="{{ description | default: site.description | default: "Personal website serves as a digital portfolio, showcasing my projects, skills, and experiences." }}"/>
+<meta name="twitter:description" content="{{ description | default: site.description | default: "Independent Full-Stack Web Developer specializing in Laravel, Vue/React, and PostgreSQL. Focused on integrating AI, LLMs, and Agent systems into scalable digital solutions. Proven track record in delivering commissioned web apps, automating workflows, and optimizing system architecture. Seeking to build forward-thinking, AI-powered applications." }}"/>
 <meta name="twitter:image" content="{{ featureImage | default: "https://javecilla.vercel.app/assets/projects/portfolio-website.webp" }}">
 
 <!-- Additional SEO Tags -->
 <meta name="msapplication-TileColor" content="#000000">
 <meta name="theme-color" content="#ffffff" />
 <meta name="color-scheme" content="light" />
-<link rel='canonical' href="{{ page.url | url }}" />
-<link rel="alternate" type="application/rss+xml" title="An IT Pioneer with a professional mindset, actively building my career as a Full-Stack Web Developer. Based in the Philippines, I go beyond the classroom to architect and build robust web applications using Vue.js, TypeScript, and Laravel." href="https://javecilla.vercel.app/" />
+<link rel="canonical" href="{{ page.url | url | prepend: site.url }}" />
+<link rel="alternate" type="application/rss+xml" title="Independent Full-Stack Web Developer specializing in Laravel, Vue/React, and PostgreSQL. Focused on integrating AI, LLMs, and Agent systems into scalable digital solutions. Proven track record in delivering commissioned web apps, automating workflows, and optimizing system architecture. Seeking to build forward-thinking, AI-powered applications." href="{{ site.url }}/" />
 
 <!-- Mobile App Meta Tags -->
 <meta name="mobile-web-app-capable" content="yes" />
