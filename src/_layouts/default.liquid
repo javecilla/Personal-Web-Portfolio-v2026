@@ -45,17 +45,17 @@ eleventyComputed:
     </script>
     <script type='application/ld+json'>
       {
-        "@context": "http://www.schema.org",
-        "@type": "person",
+        "@context": "http://schema.org",
+        "@type": "Person",
         "name": "Jerome Avecilla",
         "jobTitle": "Full-Stack Web Developer",
-        "gender": "male",
+        "gender": "Male",
         "url": "https://javecilla.vercel.app",
         "sameAs": [
            "https://instagram.com/http.javecilla",
            "https://linkedin.com/jerome-avecilla",
            "https://x.com/_javecilla",
-           "https://github.com/javecilla",
+           "https://github.com/javecilla"
         ],
         "image": "https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/tqcsi5lzvcsxdnnixopu",
         "address": {
@@ -64,8 +64,18 @@ eleventyComputed:
         },
         "email": "jeromesavc@gmail.com",
         "birthDate": "2004-04-24",
-        "birthPlace": "Bulacan, Philippines",
-        "nationality": "Filipino"
+        "birthPlace": {
+           "@type": "Place",
+           "address": {
+              "@type": "PostalAddress",
+              "addressRegion": "Bulacan",
+              "addressCountry": "Philippines"
+           }
+        },
+        "nationality": {
+           "@type": "Country",
+           "name": "Philippines"
+        }
       }
     </script>
 </body>
